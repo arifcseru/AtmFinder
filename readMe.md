@@ -5,7 +5,7 @@ This project aims to show all atms in Netherlands on Google Map. There is also a
 ## Getting Started
 This project is developed by using Spring-Boot so it has tomcat container already and no need to deploy. 
 
-###Infrastructure
+### Infrastructure
 
 ##### JAVA 8
 ##### Maven 
@@ -45,7 +45,7 @@ These repositories have some useful methods like findAll(),T findOne(ID primaryK
 
 ##### Creating Database Queries With Query Methods 
 
-*1
+* 1
 If we need to create specific query like find city from city name we can just write a method in interface which named findByCityName
    ```
    City findByCityName(String cityname);
@@ -57,7 +57,7 @@ This query generation method gives us to create queries by using method name str
  
 The result set  can be entry, Optional<Entry>, List<Entry>,Stream<Entry> . This query generation strategy is used to when we need simple queries. For the complex queries it might seem ugly and long besides the query keywords must provide our needs. The disadvantage of this method it does not have dynamic query support.
 
-*2
+* 2
 We can use @Query annotation to write custom queries :
 
 ```
