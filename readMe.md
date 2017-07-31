@@ -1,5 +1,5 @@
 # ATM FINDER PROJECT
-[![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/fiskra/AtmFinder/master/LICENSE.txt)
+[![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/fiskra/AtmFinder/master/LICENSE)
 
 This project aims to show all atms in Netherlands on Google Map. There is also a filter feature by city. 
 
